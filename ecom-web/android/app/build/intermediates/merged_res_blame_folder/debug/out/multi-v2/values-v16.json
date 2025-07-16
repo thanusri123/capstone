@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ecom.app-mergeDebugResources-17:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/vboxuser/.gradle/caches/transforms-3/e01f1a3732b3dc336bd8e6538d3b9bb5/transformed/core-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/vboxuser/.gradle/caches/transforms-3/a8e52a507448d4b845688b4ff42bab35/transformed/appcompat-1.4.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

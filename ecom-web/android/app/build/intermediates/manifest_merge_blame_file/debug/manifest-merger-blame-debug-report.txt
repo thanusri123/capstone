@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ecom.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml
+10
+11    <queries>
+11-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:4:2-8:15
+12        <intent>
+12-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:5:9-7:18
+13            <action android:name="android.intent.action.TTS_SERVICE" />
+13-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:6:13-72
+13-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:6:21-69
+14        </intent>
+15    </queries>
+16
+17    <!-- Permissions -->
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:48:5-67
+19-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:48:22-64
+20
+21    <application
+21-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:9:5-42:19
+22        android:allowBackup="true"
+22-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] /home/vboxuser/.gradle/caches/transforms-3/e01f1a3732b3dc336bd8e6538d3b9bb5/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:12:9-43
+26        android:label="@string/app_name"
+26-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:13:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:14:9-54
+28        android:supportsRtl="true"
+28-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:15:9-35
+29        android:theme="@style/AppTheme"
+29-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:16:9-40
+30        android:usesCleartextTraffic="true" >
+30-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:11:9-44
+31        <activity
+31-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:18:9-31:20
+32            android:name="com.ecom.app.MainActivity"
+32-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:20:13-53
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
+33-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:19:13-129
+34            android:exported="true"
+34-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:24:13-36
+35            android:label="@string/title_activity_main"
+35-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:21:13-56
+36            android:launchMode="singleTask"
+36-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:23:13-44
+37            android:theme="@style/AppTheme.NoActionBarLaunch" >
+37-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:22:13-62
+38            <intent-filter>
+38-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:26:13-29:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:27:17-69
+39-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:28:17-77
+41-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:28:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+46            android:name="androidx.core.content.FileProvider"
+46-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:34:13-62
+47            android:authorities="com.ecom.app.fileprovider"
+47-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:35:13-64
+48            android:exported="false"
+48-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:36:13-37
+49            android:grantUriPermissions="true" >
+49-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:37:13-47
+50            <meta-data
+50-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:38:13-40:64
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:39:17-67
+52                android:resource="@xml/file_paths" />
+52-->/home/vboxuser/ecom/ecom-web/android/app/src/main/AndroidManifest.xml:40:17-51
+53        </provider>
+54        <provider
+54-->[androidx.emoji2:emoji2:1.0.0] /home/vboxuser/.gradle/caches/transforms-3/8876b0ef355d9d3e8b47dae2b38cca4c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.0.0] /home/vboxuser/.gradle/caches/transforms-3/8876b0ef355d9d3e8b47dae2b38cca4c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+56            android:authorities="com.ecom.app.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.0.0] /home/vboxuser/.gradle/caches/transforms-3/8876b0ef355d9d3e8b47dae2b38cca4c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.0.0] /home/vboxuser/.gradle/caches/transforms-3/8876b0ef355d9d3e8b47dae2b38cca4c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.0.0] /home/vboxuser/.gradle/caches/transforms-3/8876b0ef355d9d3e8b47dae2b38cca4c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.0.0] /home/vboxuser/.gradle/caches/transforms-3/8876b0ef355d9d3e8b47dae2b38cca4c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.0.0] /home/vboxuser/.gradle/caches/transforms-3/8876b0ef355d9d3e8b47dae2b38cca4c/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/vboxuser/.gradle/caches/transforms-3/31fc96d9881c54f9b47ddec530ec8052/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/vboxuser/.gradle/caches/transforms-3/31fc96d9881c54f9b47ddec530ec8052/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/vboxuser/.gradle/caches/transforms-3/31fc96d9881c54f9b47ddec530ec8052/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

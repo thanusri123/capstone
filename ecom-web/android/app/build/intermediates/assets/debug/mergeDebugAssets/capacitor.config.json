@@ -1,0 +1,6 @@
+{
+	"appId": "com.ecom.app",
+	"appName": "ecom-web",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
