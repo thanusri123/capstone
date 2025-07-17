@@ -13,7 +13,7 @@ A full-stack e-commerce platform built as a capstone project to showcase my deve
 ## 🚀 Live Demo
 
 - **Frontend (Vercel)**: [https://your-vercel-link.vercel.app](#)
-- **Backend (optional)**: [API link or write “Not Deployed”]
+- **Backend (optional)**: [“Not Deployed”]
 
 ## 💻 Tech Stack
 
