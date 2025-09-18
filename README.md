@@ -5,10 +5,10 @@ A full-stack e-commerce platform built as a capstone project to showcase my deve
 ## 📂 Project Structure
 
 - **/ecom-web/** — Frontend built using React (deployed on Vercel)
-- **/backend/** — Backend API using Node.js & Express (or FastAPI)
-- **/android/** — Mobile application version (if applicable)
-- **/build/** — Production build files (optional, mostly for frontend)
-- **/ecom-server/** — [Explain its purpose — is it a microservice, auth server, etc.?]
+- **/backend/** — Backend API using Node.js & Express
+- **/android/** — Mobile application version 
+- **/build/** — Production build files 
+- **/ecom-server/** 
 
 ## 🚀 Live Demo
 
@@ -18,9 +18,9 @@ A full-stack e-commerce platform built as a capstone project to showcase my deve
 ## 💻 Tech Stack
 
 - **Frontend**: React, HTML/CSS, JavaScript
-- **Backend**: Node.js, Express (or FastAPI)
+- **Backend**: Node.js, Express
 - **Database**: MongoDB / MySQL
-- **Mobile**: Java / Kotlin (if Android app)
+- **Mobile**: Java / Kotlin 
 - **Tools**: Git, GitHub, Vercel, Postman
 
 ## ✨ Features
